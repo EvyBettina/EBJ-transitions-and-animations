@@ -2,4 +2,14 @@
 background-color: green;
 color: white;
 padding: 1rem 2rem;
+
+transition-duration: 200ms;
+transition-property: scale;
+transition-timing-function: ease-in-out;
+}
+.transition:hover {
+background-color: greenyellow;
+color: black;
+scale: 2;
+
 }
