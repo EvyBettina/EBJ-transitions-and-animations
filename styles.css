@@ -52,9 +52,26 @@ background-color: blue
  0% {
     transform: translateY(0px);
  }
-    
+   
+ 95% {
+    transform: translateY(80px);
+    height: 20px;
+ }
 100% {
     transform: translateY(80px);
     height: 15px;
+    transform: matrix3d();
 }
+}
+
+.slidin-left {
+    animation-name: slidin-left;
+    animation-duration: 1000ms;
+}
+
+@keyframes slidin-left {
+    0% {
+        transform: translateX(0vh);
+    }
+
 }
