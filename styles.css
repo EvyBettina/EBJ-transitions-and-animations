@@ -4,12 +4,23 @@ color: white;
 padding: 1rem 2rem;
 
 transition-duration: 200ms;
+/*transition-delay: 1000ms; */
 transition-property: scale;
 transition-timing-function: ease-in-out;
 }
 .transition:hover {
 background-color: greenyellow;
 color: black;
-scale: 2;
-
+scale: 1.1;
+}
+.transition:active {
+    background-color: rgb(red, green, blue);
+    color: white;
+    scale: 0,9;
+}
+.hover-scale {
+    transition: all 100ms ease-in-out;
+}
+.hover-scale:hover {
+    scale: 1.02;
 }
